@@ -4,7 +4,7 @@
   "description": "100 ways to use ajax",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "popper.js": "^1.15.0"
   },
   "devDependencies": {
-    "eslint": "^6.2.2"
+    "eslint": "^6.2.2",
+    "jest": "^24.9.0"
   }
 }
